@@ -10,8 +10,8 @@ def main(page: ft.Page):
     page.title = "Jonathan Stocks"
     page.theme_mode = ft.ThemeMode.LIGHT
     page.padding = 0
-    page.window_width = 1200
-    page.window_height = 800
+    page.window_width = 1400
+    page.window_height = 900
     page.bgcolor = ft.Colors.GREY_50
     page.scroll = ft.ScrollMode.AUTO
 
