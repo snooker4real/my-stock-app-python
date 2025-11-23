@@ -154,14 +154,14 @@ def main(page: ft.Page):
                         ft.Container(
                             content=ft.Column([
                                 ft.Row([
-                                    ft.Icon(ft.Icons.PLAY_ARROW, color=ft.Colors.BLUE_600, size=16),
-                                    ft.Text("Open", size=13, color=ft.Colors.GREY_600, weight=ft.FontWeight.W_500)
+                                    ft.Icon(ft.Icons.PLAY_ARROW, color=ft.Colors.BLUE_700, size=16),
+                                    ft.Text("Open", size=13, color=ft.Colors.BLUE_800, weight=ft.FontWeight.W_500)
                                 ], spacing=5),
                                 ft.Text(f"${float(latest_data['1. open']):.2f}", size=24, weight=ft.FontWeight.BOLD,
-                                        color=ft.Colors.GREY_900),
+                                        color=ft.Colors.BLUE_900),
                             ], spacing=8),
                             padding=20,
-                            bgcolor=ft.Colors.WHITE,
+                            bgcolor=ft.Colors.BLUE_50,
                             border_radius=12,
                             expand=True,
                             shadow=ft.BoxShadow(
@@ -174,14 +174,14 @@ def main(page: ft.Page):
                         ft.Container(
                             content=ft.Column([
                                 ft.Row([
-                                    ft.Icon(ft.Icons.TRENDING_UP, color=ft.Colors.GREEN_600, size=16),
-                                    ft.Text("High", size=13, color=ft.Colors.GREY_600, weight=ft.FontWeight.W_500)
+                                    ft.Icon(ft.Icons.TRENDING_UP, color=ft.Colors.GREEN_700, size=16),
+                                    ft.Text("High", size=13, color=ft.Colors.GREEN_800, weight=ft.FontWeight.W_500)
                                 ], spacing=5),
                                 ft.Text(f"${float(latest_data['2. high']):.2f}", size=24, weight=ft.FontWeight.BOLD,
-                                        color=ft.Colors.GREY_900),
+                                        color=ft.Colors.GREEN_900),
                             ], spacing=8),
                             padding=20,
-                            bgcolor=ft.Colors.WHITE,
+                            bgcolor=ft.Colors.GREEN_50,
                             border_radius=12,
                             expand=True,
                             shadow=ft.BoxShadow(
@@ -194,14 +194,14 @@ def main(page: ft.Page):
                         ft.Container(
                             content=ft.Column([
                                 ft.Row([
-                                    ft.Icon(ft.Icons.TRENDING_DOWN, color=ft.Colors.RED_600, size=16),
-                                    ft.Text("Low", size=13, color=ft.Colors.GREY_600, weight=ft.FontWeight.W_500)
+                                    ft.Icon(ft.Icons.TRENDING_DOWN, color=ft.Colors.RED_700, size=16),
+                                    ft.Text("Low", size=13, color=ft.Colors.RED_800, weight=ft.FontWeight.W_500)
                                 ], spacing=5),
                                 ft.Text(f"${float(latest_data['3. low']):.2f}", size=24, weight=ft.FontWeight.BOLD,
-                                        color=ft.Colors.GREY_900),
+                                        color=ft.Colors.RED_900),
                             ], spacing=8),
                             padding=20,
-                            bgcolor=ft.Colors.WHITE,
+                            bgcolor=ft.Colors.RED_50,
                             border_radius=12,
                             expand=True,
                             shadow=ft.BoxShadow(
@@ -214,14 +214,14 @@ def main(page: ft.Page):
                         ft.Container(
                             content=ft.Column([
                                 ft.Row([
-                                    ft.Icon(ft.Icons.STOP_CIRCLE_OUTLINED, color=ft.Colors.PURPLE_600, size=16),
-                                    ft.Text("Close", size=13, color=ft.Colors.GREY_600, weight=ft.FontWeight.W_500)
+                                    ft.Icon(ft.Icons.STOP_CIRCLE_OUTLINED, color=ft.Colors.PURPLE_700, size=16),
+                                    ft.Text("Close", size=13, color=ft.Colors.PURPLE_800, weight=ft.FontWeight.W_500)
                                 ], spacing=5),
                                 ft.Text(f"${float(latest_data['4. close']):.2f}", size=24, weight=ft.FontWeight.BOLD,
-                                        color=ft.Colors.GREY_900),
+                                        color=ft.Colors.PURPLE_900),
                             ], spacing=8),
                             padding=20,
-                            bgcolor=ft.Colors.WHITE,
+                            bgcolor=ft.Colors.PURPLE_50,
                             border_radius=12,
                             expand=True,
                             shadow=ft.BoxShadow(
